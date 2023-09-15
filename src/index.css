@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:200,300,400,500,600,700,800,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background-color: rgb(123, 125, 133);
+}
+
+
+.enroll-student-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.enroll-student-page p {
+  font-size: 3rem;
+}
+
+.enroll-student-page button {
+  font-size: 1.5rem;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.7rem;
+  background-color:  rgb(22, 152, 204);
+  cursor: pointer;
+}
+
+
+.got-it-button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.got-it-button button {
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.7rem;
+  background-color: rgb(22, 152, 204);
+  color: white;
+  cursor: pointer;
+}
+
+.got-it-button button:hover {
+  background-color:  rgb(22, 152, 204);
+}
+
+.name-input {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.name-input input {
+  padding: 0.5rem 1rem;
+  border-radius: 0.7rem;
+  border: 1px solid rgb(211, 214, 212);
+  background-color: rgb(211, 214, 212);
+  ;
+}
+
+.scedule-button{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 30px;
+  justify-content: space-between;
+}
+
+.scedule-button button{
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.7rem;
+  background-color: rgb(22, 152, 204);
+  color: white;
+  cursor: pointer;
+  border: 1px solid rgb(22, 152, 204);
+  background-color: rgb(22, 152, 204);
+}
+
+
+.age-dropdown {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.age-dropdown select {
+  padding: 0.5rem 0.3rem;
+  border-radius: 0.7rem;
+  border: 1px solid rgb(199 210 254);
+  background-color: rgb(224 231 255);
+}
+
+.chatbot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.react-chatbot-kit-chat-header {
+  background-color: rgb(22, 152, 204) !important;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  padding: 1rem !important;
+  font-size: 1rem !important;
+  
+}
+
+.react-chatbot-kit-chat-container {
+  padding: 2rem 0;
+}
+
+.enrolled-student-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.enrolled-student-page p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.calendar-dates{
+  color:pink;
+}
+
+.calendar-dates button.selected {
+  background-color: blue;
+  color: white;
+}
+
+.calendar-datess div {
+  margin-top: 10px;
+}
+
+.calendar-datess button.selected {
+  background-color: white;
+  color: blue;
+}
+
